@@ -1,0 +1,82 @@
+"id","name","code","parent_id:id","notprintable","sign"
+"DS0","Daňová struktura","DS",,"FALSE",1
+"ZP","I. Zdanitelná plnění","I.","DS0","FALSE",1
+"U01ZZ","Dodání zboží nebo poskytnutí služby (tuzemsko) – ZS/ZD","1ZD","ZP","FALSE",1
+"U01ZD","Dodání zboží nebo poskytnutí služby (tuzemsko) – ZS/D","1D","ZP","FALSE",1
+"U01SZ","Dodání zboží nebo poskytnutí služby (tuzemsko) – SS/ZD","2ZD","ZP","FALSE",1
+"U01SD","Dodání zboží nebo poskytnutí služby (tuzemsko) – SS/D","2D","ZP","FALSE",1
+"D01ZZ","Pořízení zboží z jiného členského státu – ZS/ZD","3ZD","ZP","FALSE",1
+"D01ZD","Pořízení zboží z jiného členského státu – ZS/D","3D","ZP","FALSE",1
+"D01SZ","Pořízení zboží z jiného členského státu – SS/ZD","4ZD","ZP","FALSE",1
+"D01SD","Pořízení zboží z jiného členského státu – SS/D","4D","ZP","FALSE",1
+"D02ZZ","Přijetí služby od osoby reg. k dani v jiném členském státě – ZS/ZD","5ZD","ZP","FALSE",1
+"D02ZD","Přijetí služby od osoby reg. k dani v jiném členském státě – ZS/D","5D","ZP","FALSE",1
+"D02SZ","Přijetí služby od osoby reg. k dani v jiném členském státě – SS/ZD","6ZD","ZP","FALSE",1
+"D02SD","Přijetí služby od osoby reg. k dani v jiném členském státě – SS/D","6D","ZP","FALSE",1
+"D05ZZ","Dovoz zboží – ZS/ZD","7ZD","ZP","FALSE",1
+"D05ZD","Dovoz zboží – ZS/D","7D","ZP","FALSE",1
+"D05SZ","Dovoz zboží – SS/ZD","8ZD","ZP","FALSE",1
+"D05SD","Dovoz zboží – SS/D","8D","ZP","FALSE",1
+"D04ZZ","Pořízení nového dopravního prostředku – ZS/ZD","9ZD","ZP","FALSE",1
+"D04ZD","Pořízení nového dopravního prostředku – ZS/D","9D","ZP","FALSE",1
+"D10ZZ","Přenesení daňové povinnosti – odběratel zboží/příjemce služeb – ZS/ZD","10ZD","ZP","FALSE",1
+"D10ZD","Přenesení daňové povinnosti – odběratel zboží/příjemce služeb – ZS/D","10D","ZP","FALSE",1
+"D10SZ","Přenesení daňové povinnosti – odběratel zboží/příjemce služeb – SS/ZD","11ZD","ZP","FALSE",1
+"D10SD","Přenesení daňové povinnosti – odběratel zboží/příjemce služeb – SS/D","11D","ZP","FALSE",1
+"D03ZZ","Ostatní plnění, s povinosti přiznat daň plátce při jejich přijetí – ZS/ZD","12ZD","ZP","FALSE",1
+"D03ZD","Ostatní plnění, s povinosti přiznat daň plátce při jejich přijetí – ZS/D","12D","ZP","FALSE",1
+"D03SZ","Ostatní plnění, s povinosti přiznat daň plátce při jejich přijetí – SS/ZD","13ZD","ZP","FALSE",1
+"D03SD","Ostatní plnění, s povinosti přiznat daň plátce při jejich přijetí – SS/D","13D","ZP","FALSE",1
+"OP","II. Ostatní plnění a plnění s místem plnění mimo tuzemsko s nárokem na odpočet daně","II.","DS0","FALSE",1
+"U03Z","Dodání zboží do jiného členského státu",20,"OP","FALSE",1
+"U19Z","Poskytnutí služeb s místem plnění v jiném členském státě ",21,"OP","FALSE",1
+"U05Z","Vývoz zboží",22,"OP","FALSE",1
+"U07Z","Dodání nového dopr. prostředku osobě nereg. k dani v jiném členském státě",23,"OP","FALSE",1
+"U09Z","Zasílání zboží do jiného členského státu",24,"OP","FALSE",1
+"U22Z","Režim přenesení daňové povinnosti – dodavatel zboží nebo poskytovatel služeb",25,"OP","FALSE",1
+"U11Z","Ostatní uskutečněná plnění s nárokem na odpočet daně",26,"OP","FALSE",1
+"DU","III. Doplňující údaje","III.","DS0","FALSE",1
+"P08Z","Dodání zboží formou třístranného obchodu prostřední osobou - Pořízení zboží",30,"DU","FALSE",1
+"U16Z","Dodání zboží formou třístranného obchodu prostřední osobou - Dodání zboží",31,"DU","FALSE",1
+"P18Z","Dovoz zboží osvobozený",32,"DU","FALSE",1
+"U23V","Oprava výše daně u pohledávek za dlužníky v insolvenčním řízení – Věřitel",33,"DU","FALSE",1
+"U23D","Oprava výše daně u pohledávek za dlužníky v insolvenčním řízení – Dlužník",34,"DU","FALSE",1
+"OD","IV. Nárok na odpočet daně","IV.","DS0","FALSE",1
+"P01ZZ","Z přijatých zdanitelných plnění od plátců – ZS/ZD",40,"OD","FALSE",1
+"P01ZP","Z přijatých zdanitelných plnění od plátců – ZS/PV",40,"OD","FALSE",1
+"P01ZK","Z přijatých zdanitelných plnění od plátců – ZS/KO",40,"OD","FALSE",1
+"P01SZ","Z přijatých zdanitelných plnění od plátců – SS/ZD",41,"OD","FALSE",1
+"P01SP","Z přijatých zdanitelných plnění od plátců – SS/PV",41,"OD","FALSE",1
+"P01SK","Z přijatých zdanitelných plnění od plátců – SS/KO",41,"OD","FALSE",1
+"P06ZZ","Při dovozu zboží, kdy je správcem daně celní úřad – ZS/ZD",42,"OD","FALSE",1
+"P06ZP","Při dovozu zboží, kdy je správcem daně celní úřad – ZS/PV",42,"OD","FALSE",1
+"P06ZK","Při dovozu zboží, kdy je správcem daně celní úřad – ZS/KO",42,"OD","FALSE",1
+"P03ZZ","Ze zdanitelných plnění vykázaných na řádcích 3 až 13 – ZS/ZD",43,"OD","FALSE",1
+"P03ZP","Ze zdanitelných plnění vykázaných na řádcích 3 až 13 – ZS/PV",43,"OD","FALSE",1
+"P03ZK","Ze zdanitelných plnění vykázaných na řádcích 3 až 13 – ZS/KO",43,"OD","FALSE",1
+"P03SZ","Ze zdanitelných plnění vykázaných na řádcích 3 až 13 – SS/ZD",44,"OD","FALSE",1
+"P03SP","Ze zdanitelných plnění vykázaných na řádcích 3 až 13 – SS/PV",44,"OD","FALSE",1
+"P03SK","Ze zdanitelných plnění vykázaných na řádcích 3 až 13 – SS/KO",44,"OD","FALSE",1
+"KODPV","Korekce odpočtů daně – PV",45,"OD","FALSE",1
+"KODKO","Korekce odpočtů daně – KO",45,"OD","FALSE",1
+"ODCPV","Odpočet daně celkem – PV",46,"OD","FALSE",1
+"ODCKO","Odpočet daně celkem – KO",46,"OD","FALSE",1
+"P16ZZ","Hodnota pořízeného majetku – ZD",47,"OD","FALSE",1
+"P16ZP","Hodnota pořízeného majetku – PV",47,"OD","FALSE",1
+"P16ZK","Hodnota pořízeného majetku – KO",47,"OD","FALSE",1
+"KN","V. Krácení nároku na odpočet daně","V.","DS0","FALSE",1
+"U13Z","Plnění osvobozená od daně bez nároku na odpočet daně",50,"KN","FALSE",1
+"U14SO","Hodnota plnění nezapočítávaných do výpočtu koeficientu – SO",51,"KN","FALSE",1
+"U14BO","Hodnota plnění nezapočítávaných do výpočtu koeficientu – BO",51,"KN","FALSE",1
+"COKVK","Část odpočtu daně v krácené výši – K",52,"KN","FALSE",1
+"COKVO","Část odpočtu daně v krácené výši – O",52,"KN","FALSE",1
+"VODVK","Vypořádání odpočtu daně – VK",53,"KN","FALSE",1
+"VODZO","Vypořádání odpočtu daně – ZO",53,"KN","FALSE",1
+"DP","VI. Výpočet daňové povinnosti","VI.","DS0","FALSE",1
+"UOD","Úprava odpočtu daně",60,"DP","FALSE",1
+"P07Z","Vrácení daně",61,"DP","FALSE",-1
+"DNV","Daň na výstupu",62,"DP","FALSE",1
+"ODT","Odpočet daně ",63,"DP","FALSE",-1
+"VDP","Vlastní daňová povinnost",64,"DP","FALSE",1
+"NO","Nadměrný odpočet",65,"DP","FALSE",1
+"RO","Rozdíl oproti poslední známé dani při podání dodatečného daňového přiznání ",66,"DP","FALSE",1

@@ -1,0 +1,9 @@
+"id","description","chart_template_id:id","type_tax_use","name","type","amount","account_collected_id:id","account_paid_id:id","base_code_id:id","tax_code_id:id","ref_base_code_id:id","ref_tax_code_id:id","tax_sign","base_sign","ref_base_sign","ref_tax_sign","parent_id:id"
+"DPH15I","DPH 15%","l10n_cz","purchase","Daň z přidané hodnoty 15% vstup","percent","0.150",343000,343000,"P01SZ","P01SP","P01SZ","P01SP",1,1,-1,-1,
+"DPH15O","DPH 15%","l10n_cz","sale","Daň z přidané hodnoty 15% výstup","percent","0.150",343000,343000,"U01SZ","U01SD","U01SZ","U01SD",1,1,-1,-1,
+"DPH21I","DPH 21%","l10n_cz","purchase","Daň z přidané hodnoty 21% vstup","percent","0.210",343000,343000,"P01ZZ","P01ZP","P01ZZ","P01ZP",1,1,-1,-1,
+"DPH21O","DPH 21%","l10n_cz","sale","Daň z přidané hodnoty 21% výstup","percent","0.210",343000,343000,"U01ZZ","U01ZD","U01ZZ","U01ZD",1,1,-1,-1,
+"SEU0","SERVICES VAT EU 0%","l10n_cz","sale","Daň z přidané hodnoty poskytnutí služeb do EU","percent","0.000",343000,343000,"U03Z","U03Z","U03Z","U03Z",1,1,-1,-1,
+"SDPH21O","DPH S 21%","l10n_cz","sale","Daň z přidané hodnoty - 21% výstup zboží samovyměření","percent","0.210",343000,343000,"P01ZZ","P01ZP","P01ZZ","P01ZP",1,1,-1,-1,
+"SDPH21I","DPH S 21%","l10n_cz","purchase","Daň z přidané hodnoty - 21% vstup zboží samovyměření","percent","0.210",343000,343000,"P01ZZ","P01ZP","P01ZZ","P01ZP",1,1,-1,-1,
+"GEU0","GOODS VAT EU 0%","l10n_cz","sale","Daň z přidané hodnoty dovoz zboží do EU","percent","0.000",343000,343000,"U03Z","U03Z","U03Z","U03Z",1,1,-1,-1,
