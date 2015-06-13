@@ -20,12 +20,12 @@
 
 
 {
-    'name': 'Accounting for Czech Republic',
+    'name': 'Czech Republic chart of accounts',
     'version': '2.0',
     'category': 'Localization/Account Charts',
     'description': """
-This is the latest modoo localisation necessary to run modoo accounting for CZ with:
-=================================================================================================
+This is the localisation package necessary to run Odoo accounting for Czech Republic:
+=====================================================================================
     - CZ chart of accounts
     - CZ chart of taxes""",
     'author': 'EMvolution CZ s.r.o.',
@@ -39,8 +39,7 @@ This is the latest modoo localisation necessary to run modoo accounting for CZ w
         'data/account.tax.template.csv',
         'l10n_cz_wizard.xml',
     ],
-    'demo' : ['demo/demo.xml'],
     'installable': 'True',
-    'images': ['images/config_chart_l10n_cz.jpeg','images/l10n_cz_chart.jpeg'],
+    'images': ['images/l10n_cz_chart.jpeg'],
 }
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
